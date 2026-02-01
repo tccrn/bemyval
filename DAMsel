@@ -1,0 +1,71 @@
+index.html
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Be My Valentine Damilola ❤️</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: linear-gradient(135deg, #ff4b6e, #ff9a9e);
+      color: white;
+      text-align: center;
+      padding-top: 100px;
+    }
+
+    h1 {
+      font-size: 50px;
+    }
+
+    p {
+      font-size: 22px;
+      width: 60%;
+      margin: auto;
+    }
+
+    button {
+      padding: 15px 30px;
+      font-size: 18px;
+      border: none;
+      border-radius: 10px;
+      margin: 20px;
+      cursor: pointer;
+    }
+
+    .yes { background: #fff; color: #ff4b6e; }
+    .no { background: #333; color: white; }
+
+    #response {
+      margin-top: 30px;
+      font-size: 28px;
+    }
+  </style>
+</head>
+
+<body>
+
+<h1>Damilola mi baby, Will You Be My Valentine? ❤️</h1>
+
+<p>
+Even with the miles between us, e for choke man inside life like 30BG, but you make every breathing day special.
+From Lagos to the Connecticut, you make my heart go beat kpo kpo di kpo.
+So… my Lom Lom, will you be my Valentine?
+</p>
+
+<button class="yes" onclick="sayYes()">YES 😍</button>
+<button class="no" onclick="runAway()">NO 😅</button>
+
+<div id="response"></div>
+
+<script>
+function sayYes() {
+  document.getElementById("response").innerHTML =
+  "Gbam!! ❤️ Congratulations. You successfully just made a fellow hard guy blush 😁😋";
+}
+
+function runAway() {
+  alert("Nice try, Hard girl 😏 You can’t say no!");
+}
+</script>
+
+</body>
+</html>
